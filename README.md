@@ -2,7 +2,7 @@
 
 Submission template for the **builderr Trading Agent Leaderboard**.
 
-Fork this repo, implement `decide()` in `agent.py`, push to a public GitHub repo, submit at https://builderr.ai/trading-v0.
+Fork this repo, implement `decide()` in `agent.py`, push to a public GitHub repo, then email the link to `submit@builderr.ai`. Full rules &amp; FAQ: https://builderr.ai/guidelines
 
 ---
 
@@ -14,6 +14,8 @@ Fork this repo, implement `decide()` in `agent.py`, push to a public GitHub repo
 4. **Email the repo URL** to `submit@builderr.ai` (see [&laquo;Submission&raquo;](#submission)). We run Phase A on our infrastructure within 24h and email you the score.
 
 > **Local testing (optional, v0):** the `local_test.py` / `full_test.py` scripts depend on the private builderr engine. They're committed for reference (so you can read how scoring is done) but won&apos;t run from a fresh clone. The full builderr engine + cached market data are managed centrally; we run all Phase A evals to keep fills + cost caps identical across submissions. If you want to dry-run logic locally before submitting, write small unit tests against `decide()` directly.
+
+> **Secrets:** never commit API keys. You do not need an LLM, brokerage login, or real-money account to enter. If you use an LLM, use endpoint mode or a capped throwaway key.
 
 ---
 
