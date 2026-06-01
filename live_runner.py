@@ -35,7 +35,7 @@ UNIVERSE = [
 # Reference field — file -> (display name, label). All clearly "house/reference".
 FIELD = [
     ("seed_dual_momentum.py",        "dual-momentum-rotation", "house · all-weather"),
-    ("soham_agent_v2.py",            "ai-momentum-basket",     "house · aggressive"),
+    ("ai_momentum.py",               "ai-momentum-basket",     "house · aggressive"),
     ("example_sector_rotation.py",   "sector-rotation",        "reference"),
     ("example_vol_target.py",        "vol-target",             "reference"),
 ]

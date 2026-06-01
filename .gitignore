@@ -8,3 +8,4 @@ venv/
 local_test_output/
 data_cache/
 *.parquet
+.vercel

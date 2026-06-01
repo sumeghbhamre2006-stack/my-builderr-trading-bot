@@ -9,7 +9,7 @@ Fork this repo, implement `decide()` in `agent.py`, then send us the repo — **
 ## 30-second start
 
 1. **Fork this repo** on GitHub.
-2. **Implement `decide()`** in `agent.py` — or just rename `baseline.py` to `agent.py` for a 5-minute first submission that gets admitted. The full contract is in the docstring + the [&laquo;The contract&raquo;](#the-contract) section below. `baseline.py`, `example_sector_rotation.py`, and `soham_agent_v2.py` are real reference bots you can read, run, and beat.
+2. **Implement `decide()`** in `agent.py` — or just rename `baseline.py` to `agent.py` for a 5-minute first submission that gets admitted. The full contract is in the docstring + the [&laquo;The contract&raquo;](#the-contract) section below. `baseline.py`, `example_sector_rotation.py`, and `ai_momentum.py` are real reference bots you can read, run, and beat.
 3. **See it clear admission — locally, in ~10 seconds:** run **`python preview.py`**. No engine, no network, no keys, no install. It runs your bot across three real public market windows and prints the same shape of report the real admission email gives you, plus a PASS/FAIL on the safety bar admission actually gates on (clean run, leverage cap, concentration cap, no blow-up). If it says you clear the bar, you're very likely to be admitted.
 4. **Push to a GitHub repo** — public, or private with a read-only deploy key (your call; [«Submission»](#submission) explains the trade-offs).
 5. **Email the repo URL** to `submit@builderr.ai` (see [&laquo;Submission&raquo;](#submission)). We run admission on our infrastructure within 24h and email you the score. You can resubmit and iterate anytime before your cohort locks — your first try is not your last.
