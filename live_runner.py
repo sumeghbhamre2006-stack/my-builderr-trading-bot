@@ -134,9 +134,9 @@ def fetch_bars() -> dict[str, list[dict]]:
 def run_bot(decide, bars: dict[str, list[dict]]) -> dict:
     """Run a $100k paper account from ROUND_START (Jun 2) to the latest bar.
 
-    The agent always sees full history (for its signals); the account just starts
-    at the round open. Orders fill same session at the close (+/- slippage), so
-    the live board shows real trades and a real mark-to-market from day one.
+    The agent decides on info known through the prior close (the contest launched
+    the night before the open), and orders fill at each session's OPEN (+/- slippage)
+    — so the book actually holds through, and captures, the day's move.
     """
     all_dates = sorted({b["ts"] for rows in bars.values() for b in rows})
     eval_dates = [d for d in all_dates if d >= ROUND_START] or all_dates[-1:]
@@ -153,15 +153,19 @@ def run_bot(decide, bars: dict[str, list[dict]]) -> dict:
         return None
 
     for date in eval_dates:
-        prices = {t: price(t, date, "close") for t in bars}
-        prices = {t: p for t, p in prices.items() if p is not None}
+        open_px = {t: p for t in bars if (p := price(t, date, "open")) is not None}
+        close_px = {t: p for t in bars if (p := price(t, date, "close")) is not None}
 
-        market_state = {t: [b for b in bars[t] if b["ts"] <= date] for t in bars}
+        # The contest launched the night BEFORE June 2's open, so the book is set
+        # on info known through the prior close, and orders execute at THIS day's
+        # OPEN — i.e. the agent actually holds through (and captures) the session.
+        market_state = {t: [b for b in bars[t] if b["ts"] < date] for t in bars}
+        prior_close = {t: ms[-1]["close"] for t, ms in market_state.items() if ms}
         portfolio_state = {
             "cash": cash,
             "positions": [{"ticker": t, "quantity": q, "avg_cost": avg_cost.get(t, 0.0)}
                           for t, q in positions.items() if q > 0],
-            "last_prices": prices,
+            "last_prices": prior_close,
         }
         try:
             orders = decide(market_state, portfolio_state, cash) or []
@@ -173,9 +177,9 @@ def run_bot(decide, bars: dict[str, list[dict]]) -> dict:
                 tk, side, qty = o["ticker"], o["side"], float(o["quantity"])
             except (KeyError, TypeError, ValueError):
                 continue
-            if side not in ("buy", "sell") or qty <= 0 or tk not in prices:
+            if side not in ("buy", "sell") or qty <= 0 or tk not in open_px:
                 continue
-            px = prices[tk]
+            px = open_px[tk]  # fill at the day's OPEN
             slip = SLIP_LEVERAGED if beta(tk) > 1 else SLIP_EQUITY
             if side == "buy":
                 fill = px * (1 + slip)
@@ -197,7 +201,8 @@ def run_bot(decide, bars: dict[str, list[dict]]) -> dict:
                 positions[tk] = held - qty
                 trades += 1
 
-        equity = max(cash + sum(positions.get(t, 0.0) * prices.get(t, 0.0) for t in positions), 1e-9)
+        # mark to the day's CLOSE
+        equity = max(cash + sum(positions.get(t, 0.0) * close_px.get(t, 0.0) for t in positions), 1e-9)
         curve.append(equity)
 
     equity = curve[-1] if curve else START_CASH
