@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-04T19:56:09Z",
+  "generated_at_utc": "2026-06-04T21:25:10Z",
   "as_of_market_date": "2026-06-04",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -8,74 +8,74 @@
     {
       "name": "mohit",
       "label": "round 1 \u00b7 entrant",
-      "equity": 102291.38,
-      "pnl": 2291.38,
-      "ret": 0.0229,
+      "equity": 102105.3,
+      "pnl": 2105.3,
+      "ret": 0.0211,
       "trades": 6
     },
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 101501.65,
-      "pnl": 1501.65,
-      "ret": 0.015,
+      "equity": 101517.66,
+      "pnl": 1517.66,
+      "ret": 0.0152,
       "trades": 4
     },
     {
       "name": "dual-momentum-rotation",
       "label": "house \u00b7 all-weather",
-      "equity": 100736.71,
-      "pnl": 736.71,
+      "equity": 100742.4,
+      "pnl": 742.4,
       "ret": 0.0074,
       "trades": 5
     },
     {
       "name": "vol-target",
       "label": "reference",
-      "equity": 100601.25,
-      "pnl": 601.25,
+      "equity": 100599.83,
+      "pnl": 599.83,
       "ret": 0.006,
       "trades": 5
     },
     {
       "name": "sector-rotation",
       "label": "reference",
-      "equity": 100465.64,
-      "pnl": 465.64,
-      "ret": 0.0047,
+      "equity": 100460.47,
+      "pnl": 460.47,
+      "ret": 0.0046,
       "trades": 4
     },
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 100300.0,
-      "pnl": 300.0,
-      "ret": 0.003,
+      "equity": 100279.91,
+      "pnl": 279.91,
+      "ret": 0.0028,
       "trades": 6
     },
     {
       "name": "ai-momentum-basket",
       "label": "house \u00b7 aggressive",
-      "equity": 99917.53,
-      "pnl": -82.47,
-      "ret": -0.0008,
+      "equity": 99878.03,
+      "pnl": -121.97,
+      "ret": -0.0012,
       "trades": 9
-    },
-    {
-      "name": "robert",
-      "label": "round 1 \u00b7 entrant",
-      "equity": 99525.61,
-      "pnl": -474.39,
-      "ret": -0.0047,
-      "trades": 7
     },
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 99478.84,
-      "pnl": -521.16,
-      "ret": -0.0052,
+      "equity": 99444.79,
+      "pnl": -555.21,
+      "ret": -0.0056,
       "trades": 6
+    },
+    {
+      "name": "robert",
+      "label": "round 1 \u00b7 entrant",
+      "equity": 99412.64,
+      "pnl": -587.36,
+      "ret": -0.0059,
+      "trades": 7
     }
   ]
 }
