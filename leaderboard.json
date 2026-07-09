@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-09T21:14:04Z",
+  "generated_at_utc": "2026-07-09T23:04:17Z",
   "as_of_market_date": "2026-07-09",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -24,8 +24,8 @@
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 97627.78,
-      "pnl": -2372.22,
+      "equity": 97632.14,
+      "pnl": -2367.86,
       "ret": -0.0237,
       "trades": 12
     },
@@ -48,8 +48,8 @@
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 96540.8,
-      "pnl": -3459.2,
+      "equity": 96541.91,
+      "pnl": -3458.09,
       "ret": -0.0346,
       "trades": 28
     },
