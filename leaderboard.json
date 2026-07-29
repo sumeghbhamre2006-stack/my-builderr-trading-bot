@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-29T20:10:19Z",
+  "generated_at_utc": "2026-07-29T21:50:46Z",
   "as_of_market_date": "2026-07-29",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -8,40 +8,40 @@
     {
       "name": "vol-target",
       "label": "reference",
-      "equity": 99202.79,
-      "pnl": -797.21,
+      "equity": 99201.72,
+      "pnl": -798.28,
       "ret": -0.008,
       "trades": 15
     },
     {
       "name": "dual-momentum-rotation",
       "label": "house \u00b7 all-weather",
-      "equity": 95114.98,
-      "pnl": -4885.02,
-      "ret": -0.0489,
+      "equity": 95126.34,
+      "pnl": -4873.66,
+      "ret": -0.0487,
       "trades": 5
     },
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 94677.39,
-      "pnl": -5322.61,
+      "equity": 94680.43,
+      "pnl": -5319.57,
       "ret": -0.0532,
       "trades": 39
     },
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 94101.5,
-      "pnl": -5898.5,
+      "equity": 94102.68,
+      "pnl": -5897.32,
       "ret": -0.059,
       "trades": 16
     },
     {
       "name": "robert",
       "label": "round 1 \u00b7 entrant",
-      "equity": 92129.21,
-      "pnl": -7870.79,
+      "equity": 92134.89,
+      "pnl": -7865.11,
       "ret": -0.0787,
       "trades": 69
     },
@@ -56,24 +56,24 @@
     {
       "name": "sector-rotation",
       "label": "reference",
-      "equity": 91456.6,
-      "pnl": -8543.4,
-      "ret": -0.0854,
+      "equity": 91470.23,
+      "pnl": -8529.77,
+      "ret": -0.0853,
       "trades": 4
     },
     {
       "name": "ai-momentum-basket",
       "label": "house \u00b7 aggressive",
-      "equity": 90806.97,
-      "pnl": -9193.03,
+      "equity": 90813.49,
+      "pnl": -9186.51,
       "ret": -0.0919,
       "trades": 9
     },
     {
       "name": "mohit",
       "label": "round 1 \u00b7 entrant",
-      "equity": 80250.48,
-      "pnl": -19749.52,
+      "equity": 80252.63,
+      "pnl": -19747.37,
       "ret": -0.1975,
       "trades": 29
     }
