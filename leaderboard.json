@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-30T20:57:37Z",
+  "generated_at_utc": "2026-07-30T22:00:35Z",
   "as_of_market_date": "2026-07-30",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -24,16 +24,16 @@
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 96875.5,
-      "pnl": -3124.5,
+      "equity": 96877.48,
+      "pnl": -3122.52,
       "ret": -0.0312,
       "trades": 19
     },
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 94829.81,
-      "pnl": -5170.19,
+      "equity": 94830.11,
+      "pnl": -5169.89,
       "ret": -0.0517,
       "trades": 48
     },
@@ -72,9 +72,9 @@
     {
       "name": "mohit",
       "label": "round 1 \u00b7 entrant",
-      "equity": 82856.82,
-      "pnl": -17143.18,
-      "ret": -0.1714,
+      "equity": 82843.54,
+      "pnl": -17156.46,
+      "ret": -0.1716,
       "trades": 38
     }
   ]
