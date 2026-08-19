@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T21:17:59Z",
+  "generated_at_utc": "2026-08-19T22:15:42Z",
   "as_of_market_date": "2026-08-19",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -48,16 +48,16 @@
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 94725.2,
-      "pnl": -5274.8,
-      "ret": -0.0527,
+      "equity": 95039.07,
+      "pnl": -4960.93,
+      "ret": -0.0496,
       "trades": 63
     },
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 92850.01,
-      "pnl": -7149.99,
+      "equity": 92850.02,
+      "pnl": -7149.98,
       "ret": -0.0715,
       "trades": 91
     },
