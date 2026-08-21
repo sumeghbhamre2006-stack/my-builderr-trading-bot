@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-21T20:15:53Z",
+  "generated_at_utc": "2026-08-21T21:16:10Z",
   "as_of_market_date": "2026-08-21",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -40,8 +40,8 @@
     {
       "name": "ai-momentum-basket",
       "label": "house \u00b7 aggressive",
-      "equity": 96107.93,
-      "pnl": -3892.07,
+      "equity": 96109.58,
+      "pnl": -3890.42,
       "ret": -0.0389,
       "trades": 9
     },
@@ -56,8 +56,8 @@
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 92570.2,
-      "pnl": -7429.8,
+      "equity": 92565.55,
+      "pnl": -7434.45,
       "ret": -0.0743,
       "trades": 94
     },
