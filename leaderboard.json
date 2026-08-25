@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-25T20:19:50Z",
+  "generated_at_utc": "2026-08-25T21:19:52Z",
   "as_of_market_date": "2026-08-25",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -8,33 +8,33 @@
     {
       "name": "dual-momentum-rotation",
       "label": "house \u00b7 all-weather",
-      "equity": 101236.54,
-      "pnl": 1236.54,
-      "ret": 0.0124,
+      "equity": 101228.95,
+      "pnl": 1228.95,
+      "ret": 0.0123,
       "trades": 5
     },
     {
       "name": "vol-target",
       "label": "reference",
-      "equity": 100996.81,
-      "pnl": 996.81,
+      "equity": 100995.97,
+      "pnl": 995.97,
       "ret": 0.01,
       "trades": 15
     },
     {
       "name": "sector-rotation",
       "label": "reference",
-      "equity": 99371.79,
-      "pnl": -628.21,
+      "equity": 99368.07,
+      "pnl": -631.93,
       "ret": -0.0063,
       "trades": 11
     },
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 99349.52,
-      "pnl": -650.48,
-      "ret": -0.0065,
+      "equity": 99344.8,
+      "pnl": -655.2,
+      "ret": -0.0066,
       "trades": 22
     },
     {
@@ -48,24 +48,24 @@
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 94554.0,
-      "pnl": -5446.0,
+      "equity": 94551.01,
+      "pnl": -5448.99,
       "ret": -0.0545,
       "trades": 66
     },
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 92895.76,
-      "pnl": -7104.24,
-      "ret": -0.071,
+      "equity": 92891.72,
+      "pnl": -7108.28,
+      "ret": -0.0711,
       "trades": 99
     },
     {
       "name": "robert",
       "label": "round 1 \u00b7 entrant",
-      "equity": 91000.1,
-      "pnl": -8999.9,
+      "equity": 90998.68,
+      "pnl": -9001.32,
       "ret": -0.09,
       "trades": 97
     },
