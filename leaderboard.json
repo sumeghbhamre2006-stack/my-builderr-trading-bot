@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T21:30:24Z",
+  "generated_at_utc": "2026-10-13T02:48:05Z",
   "as_of_market_date": "2026-10-12",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -8,9 +8,9 @@
     {
       "name": "opu",
       "label": "round 1 \u00b7 entrant",
-      "equity": 104517.38,
-      "pnl": 4517.38,
-      "ret": 0.0452,
+      "equity": 104513.29,
+      "pnl": 4513.29,
+      "ret": 0.0451,
       "trades": 40
     },
     {
@@ -64,8 +64,8 @@
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 89496.33,
-      "pnl": -10503.67,
+      "equity": 89496.34,
+      "pnl": -10503.66,
       "ret": -0.105,
       "trades": 151
     },
