@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-17T21:28:16Z",
+  "generated_at_utc": "2026-11-18T03:16:13Z",
   "as_of_market_date": "2026-11-17",
   "round_start": "2026-06-02",
   "start_cash": 100000.0,
@@ -24,9 +24,9 @@
     {
       "name": "dual-momentum-rotation",
       "label": "house \u00b7 all-weather",
-      "equity": 96388.85,
-      "pnl": -3611.15,
-      "ret": -0.0361,
+      "equity": 96384.94,
+      "pnl": -3615.06,
+      "ret": -0.0362,
       "trades": 5
     },
     {
@@ -40,8 +40,8 @@
     {
       "name": "drawdown-momentum",
       "label": "house \u00b7 the bar to beat",
-      "equity": 93461.41,
-      "pnl": -6538.59,
+      "equity": 93460.61,
+      "pnl": -6539.39,
       "ret": -0.0654,
       "trades": 115
     },
@@ -64,8 +64,8 @@
     {
       "name": "zaid",
       "label": "round 1 \u00b7 entrant",
-      "equity": 82419.04,
-      "pnl": -17580.96,
+      "equity": 82419.07,
+      "pnl": -17580.93,
       "ret": -0.1758,
       "trades": 184
     },
